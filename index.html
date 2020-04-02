@@ -72,8 +72,7 @@
 function loadstyle(){
     var x = document.createElement("STYLE");
     var z = document.getElementById("css-input").value;
-    alert(z);
-    var y = document.createTextNode(z);
+    var y = document.createTextNode("#loremIpsumText {" + z + "}");
     x.appendChild(y);
     document.head.appendChild(x);   }
 </script>
